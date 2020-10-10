@@ -16,7 +16,7 @@ Nex-flix is a mini watchlist apps built on top of Python and Django Framework.
 
 This project requires [Python](https://python.org/) v3+ to run.
 
-Install the dependencies and devDependencies
+Install the dependencies.
 ```sh
 $ cd nex-flix
 $ pip3 install -r requirements.tx
