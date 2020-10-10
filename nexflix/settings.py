@@ -79,6 +79,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'nexflix.wsgi.application'
 
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
 #TMDB API URL
 TMDB_BASE_URL = 'https://api.themoviedb.org'
 TMDB_VERSION_3 = '/3'
