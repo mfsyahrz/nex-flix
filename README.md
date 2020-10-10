@@ -53,5 +53,6 @@ Nex-flix is deployed on heroku. the host is [here](https://nex-flix.herokuapp.co
 
 
 ### Disclaimer
-This product uses the TMDb API but is not endorsed or certified by TMDb.
+This project is consuming the [TMDb](https://developers.themoviedb.org/) API to fetch Movies data 
+,but is not endorsed or certified by TMDb.
 
