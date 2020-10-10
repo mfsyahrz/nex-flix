@@ -35,9 +35,8 @@ class WatchlistView(APIView):
             watchlist_saved = serializer.save()
         return Response({"success": "watchlist '{}' updated successfully".format(watchlist_saved.title)})
 
-
     def delete(self, request, pk):
-        # Get object with this pk
-        watchlist = get_object_or_404(watchlist.objects.all(), pk=pk)
+        print("START DELETE")
+        watchlist = get_object_or_404(WatchList.objects.all(), pk=pk)
         watchlist.delete()
         return Response({"message": "watchlist with id `{}` has been deleted.".format(pk)},status=204)
