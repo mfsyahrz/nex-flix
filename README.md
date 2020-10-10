@@ -42,9 +42,11 @@ Nex-flix is deployed on heroku. the host is [here](https://nex-flix.herokuapp.co
 |method | detail | url |
 | ------ | ------ | ------ |
 |GET| Get Now Playing Movies | [host]/movies/now-playing |
+|GET| Get All Watchlist| host]/watchlist/ |
+|GET| Get Watchlist by id| host]/watchlist/:id |
 |POST| Add Movie To Watchlist | [host]/watchlist/ |
-|PUT| Update watchlist comment and status | [host]/watchlist/:id |
-|DELETE| Delete from watchlist | [host]/watchlist/:id |
+|PUT| Update watchlist comment and status by id | [host]/watchlist/:id |
+|DELETE| Delete from watchlist by id | [host]/watchlist/:id |
 
 
 
