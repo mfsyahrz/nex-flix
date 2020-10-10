@@ -1,0 +1,5 @@
+*_pycache_*
+*.cfg
+*.pyc
+bin
+lib
