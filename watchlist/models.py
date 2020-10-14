@@ -1,7 +1,7 @@
 from django.db import models
 
 class WatchList(models.Model):
-    tmdb_id = models.IntegerField()
+    tmdb_id = models.IntegerField(unique=True)
     title = models.CharField(max_length=100)
     status = models.CharField(max_length=20)
     comment = models.TextField(blank=True)

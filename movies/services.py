@@ -13,7 +13,6 @@ class MoviesService(object):
         json = r.json()
 
         for res in json["results"]:
-            print(res)
             res["poster_path"] = settings.TMDB_IMAGE_URL + res["poster_path"]
 
         return json
