@@ -116,6 +116,7 @@ TMDB_MOVIE = '/movie'
 TMDB_NOW_PLAYING = '/now_playing'
 TMDB_POPULAR = '/popular'
 TMDB_UPCOMING = '/upcoming'
+TMDB_IMAGE_URL = 'http://image.tmdb.org/t/p/w500'
 
 # TMDB CREDENTIAL
 TMDB_API_KEY = config('TMDB_API_KEY')
