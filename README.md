@@ -50,8 +50,8 @@ Nex-flix API is deployed on heroku. the api host is [here](https://api-nexflix.h
 |METHOD | ACTION | ENDPOINT |
 | ------ | ------ | ------ |
 |GET| Get Now Playing Movies | [host]/movies/now-playing |
-|GET| Get All Watchlist| host]/watchlist/ |
-|GET| Get Watchlist by id| host]/watchlist/:id/ |
+|GET| Get All Watchlist| [host]/watchlist/ |
+|GET| Get Watchlist by id| [host]/watchlist/:id/ |
 |POST| Add Movie To Watchlist | [host]/watchlist/ |
 |PUT| Update watchlist comment and status by id | [host]/watchlist/:id/ |
 |DELETE| Delete from watchlist by id | [host]/watchlist/:id/ |
