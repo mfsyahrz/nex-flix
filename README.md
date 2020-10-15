@@ -2,6 +2,8 @@
 
 Nex-flix is a mini watchlist apps built on top of Python and Django Framework.
 
+full apps is deployed [here](https://nexflix.herokuapp.com/). and [here](https://github.com/mfsyahrz/nexflix-fe) is the repository for for the front end side which built on top of react JS.
+
 
 ### Technology Stack
 
@@ -39,7 +41,8 @@ $ curl localhost:8000/watchlist/
 
 
 ### API
-Nex-flix is deployed on heroku. the host is [here](https://api-nexflix.herokuapp.com/)
+Nex-flix is deployed on heroku. the api host is [here](https://api-nexflix.herokuapp.com/)
+
 
 
 #### Endpoints
