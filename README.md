@@ -2,7 +2,7 @@
 
 Nex-flix is a mini watchlist apps built on top of Python and Django Framework.
 
-full apps is deployed [here](https://nex-flix.herokuapp.com/). and [here](https://github.com/mfsyahrz/nexflix-fe) is the repository for for the front end side which built on top of react JS.
+full apps can be viewed [here](https://nex-flix.herokuapp.com/). and [here](https://github.com/mfsyahrz/nexflix-fe) is the repository  for the front end which built on top of react JS.
 
 
 ### Technology Stack
