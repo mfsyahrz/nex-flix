@@ -41,7 +41,7 @@ $ curl localhost:8000/watchlist/
 
 
 ### API
-Nex-flix is deployed on heroku. the api host is [here](https://api-nexflix.herokuapp.com/)
+Nex-flix API is deployed on heroku. the api host is [here](https://api-nexflix.herokuapp.com/)
 
 
 
